@@ -2,30 +2,30 @@ version: 0.2
 
 phases:
 
-install:
+   install:
 
-runtime-versions:
+      runtime-versions:
 
-nodejs: 12
+         nodejs: 12
 
-pre_build:
+   pre_build:
 
-commands:
+      commands:
 
-- npm install
+         - npm install
 
-build:
+   build:
 
-commands:
+      commands:
 
-- npm build
+         - npm build
 
-- npm test
+         - npm test
 
 artifacts:
 
-files:
+   files:
 
-- src/**/*
-
-- package.jso
+      - src/**/*
+      
+      - package.json
