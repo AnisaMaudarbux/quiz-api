@@ -2,7 +2,7 @@ POST http://localhost:8001/quiz
 Content-Type: application/json
 
 {
-    "name": "Demo Quiz #4",
+    "name": "Demo Quiz #3",
     "questions": [
         {
             "question": "What is the capital of the the UK?",
